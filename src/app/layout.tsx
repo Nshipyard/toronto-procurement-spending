@@ -7,10 +7,35 @@ import "@fontsource/inter/600.css";
 import "./globals.css";
 import { LangProvider } from "@/i18n";
 
+const SITE_URL = "https://procurement.canada.nshipyard.com";
+const OG_TITLE = "Toronto Procurement Spending: $21.5B across 4,082 vendors, 2012-2026";
+const OG_DESCRIPTION =
+  "Toronto's $21.5B in awarded contracts and consulting spend (2012-2026): 13,084 award records resolved to 4,082 canonical vendors from 4,240 raw name spellings. Vendor explorer, spend analysis, REST API, OpenAPI docs, and MCP tools. Open data, MIT licensed.";
+
 export const metadata: Metadata = {
-  title: "Toronto Procurement Spending: who gets the city's money",
-  description:
-    "Toronto's $21.5B in awarded contracts and consulting spend (2012-2026), resolved to 4,082 canonical vendors. Vendor explorer, spend analysis, REST API, OpenAPI docs, and MCP tools. Open data, MIT licensed.",
+  title: OG_TITLE,
+  description: OG_DESCRIPTION,
+  openGraph: {
+    title: OG_TITLE,
+    description: OG_DESCRIPTION,
+    url: SITE_URL,
+    siteName: "Toronto Procurement Spending",
+    type: "website",
+    images: [
+      {
+        url: `${SITE_URL}/og-card.png`,
+        width: 1200,
+        height: 630,
+        alt: OG_TITLE,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: OG_TITLE,
+    description: OG_DESCRIPTION,
+    images: [`${SITE_URL}/og-card.png`],
+  },
   icons: {
     icon: [
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
