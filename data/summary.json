@@ -1,0 +1,755 @@
+{
+ "meta": {
+  "project": "toronto-procurement-spending",
+  "sources": [
+   {
+    "name": "Toronto Bids Awarded Contracts",
+    "package": "tobids-awarded-contracts",
+    "records": 7755
+   },
+   {
+    "name": "Toronto Bids Non-Competitive Contracts",
+    "package": "tobids-non-competitive-contracts",
+    "records": 2937
+   },
+   {
+    "name": "Consulting Services Expenditures",
+    "package": "consulting-services-expenditures",
+    "records": 3187
+   }
+  ],
+  "retrieved": "2026-10-08",
+  "publisher": "City of Toronto Open Data (CKAN)",
+  "total_records": 13084,
+  "total_spend": 21524806837.24,
+  "raw_vendor_names": 4240,
+  "canonical_vendors": 4082,
+  "fuzzy_merges": 174,
+  "gsin_hint_coverage_pct": 1.8,
+  "quarantined_records": [
+   {
+    "source": "tobids-awarded-contracts",
+    "vendor": "Mr. Ron Weaver",
+    "doc": "3901175008",
+    "raw_value": "9054510208",
+    "reason": "10-digit unformatted integer in the amount field; matches a phone-number pattern, not a credible award"
+   },
+   {
+    "source": "tobids-awarded-contracts",
+    "vendor": "MJK CONSTRUCTION INC",
+    "doc": "2282018000",
+    "raw_value": "4163927134",
+    "reason": "10-digit unformatted integer in the amount field; matches a phone-number pattern, not a credible award"
+   },
+   {
+    "source": "tobids-awarded-contracts",
+    "vendor": "RV Anderson Associates Ltd.",
+    "doc": "9117177338",
+    "raw_value": "1898820680",
+    "reason": "10-digit unformatted integer in the amount field; matches a phone-number pattern, not a credible award"
+   }
+  ],
+  "note": "Spend totals are award/expenditure values as published; they are not audited payments. Quarantined records are excluded from every total."
+ },
+ "top10_share_pct": 20.8,
+ "by_year": [
+  {
+   "year": "2003",
+   "competitive": 0.0,
+   "non-competitive": 0.0,
+   "consulting": 135727.49,
+   "awards": 2
+  },
+  {
+   "year": "2008",
+   "competitive": 0.0,
+   "non-competitive": 0.0,
+   "consulting": 1122632.64,
+   "awards": 6
+  },
+  {
+   "year": "2010",
+   "competitive": 30813.05,
+   "non-competitive": 0.0,
+   "consulting": 0.0,
+   "awards": 1
+  },
+  {
+   "year": "2011",
+   "competitive": 16443075.27,
+   "non-competitive": 0.0,
+   "consulting": 0.0,
+   "awards": 12
+  },
+  {
+   "year": "2012",
+   "competitive": 731425600.34,
+   "non-competitive": 0.0,
+   "consulting": 427816.11,
+   "awards": 667
+  },
+  {
+   "year": "2013",
+   "competitive": 660827805.99,
+   "non-competitive": 47744941.71,
+   "consulting": 305288.0,
+   "awards": 742
+  },
+  {
+   "year": "2014",
+   "competitive": 891492540.06,
+   "non-competitive": 116849684.86,
+   "consulting": 2107674.0,
+   "awards": 875
+  },
+  {
+   "year": "2015",
+   "competitive": 1231158417.54,
+   "non-competitive": 27849490.68,
+   "consulting": 7462715.27,
+   "awards": 865
+  },
+  {
+   "year": "2016",
+   "competitive": 1719452648.42,
+   "non-competitive": 44274214.72,
+   "consulting": 5591339.04,
+   "awards": 974
+  },
+  {
+   "year": "2017",
+   "competitive": 1559004273.75,
+   "non-competitive": 56772736.25,
+   "consulting": 27439455.3,
+   "awards": 1211
+  },
+  {
+   "year": "2018",
+   "competitive": 1768000574.48,
+   "non-competitive": 101396426.15,
+   "consulting": 23176482.48,
+   "awards": 1001
+  },
+  {
+   "year": "2019",
+   "competitive": 2902524771.79,
+   "non-competitive": 166505494.85,
+   "consulting": 21384816.3,
+   "awards": 1216
+  },
+  {
+   "year": "2020",
+   "competitive": 1390255473.72,
+   "non-competitive": 174720109.24,
+   "consulting": 11772634.28,
+   "awards": 858
+  },
+  {
+   "year": "2021",
+   "competitive": 883087149.89,
+   "non-competitive": 356029828.68,
+   "consulting": 67819478.84,
+   "awards": 873
+  },
+  {
+   "year": "2022",
+   "competitive": 608116884.91,
+   "non-competitive": 100922446.51,
+   "consulting": 36259433.21,
+   "awards": 827
+  },
+  {
+   "year": "2023",
+   "competitive": 1088436784.37,
+   "non-competitive": 125535129.63,
+   "consulting": 28030603.29,
+   "awards": 846
+  },
+  {
+   "year": "2024",
+   "competitive": 2008165287.05,
+   "non-competitive": 220549903.3,
+   "consulting": 16843299.5,
+   "awards": 801
+  },
+  {
+   "year": "2025",
+   "competitive": 1837238549.13,
+   "non-competitive": 185750275.95,
+   "consulting": 0.0,
+   "awards": 420
+  },
+  {
+   "year": "2026",
+   "competitive": 91951307.0,
+   "non-competitive": 102916314.27,
+   "consulting": 0.0,
+   "awards": 98
+  },
+  {
+   "year": "4448",
+   "competitive": 0.0,
+   "non-competitive": 0.0,
+   "consulting": 52258.4,
+   "awards": 1
+  },
+  {
+   "year": "unknown",
+   "competitive": 0.0,
+   "non-competitive": 0.0,
+   "consulting": 59446229.54,
+   "awards": 788
+  }
+ ],
+ "by_kind": {
+  "competitive": {
+   "awards": 7010,
+   "spend": 19387611956.77,
+   "share_pct": 90.07
+  },
+  "non-competitive": {
+   "awards": 2887,
+   "spend": 1827816996.8,
+   "share_pct": 8.49
+  },
+  "consulting": {
+   "awards": 3187,
+   "spend": 309377883.67,
+   "share_pct": 1.44
+  }
+ },
+ "by_category": [
+  {
+   "category": "Construction Services",
+   "awards": 2934,
+   "spend": 13005786507.86
+  },
+  {
+   "category": "Non-competitive",
+   "awards": 2887,
+   "spend": 1827816996.8
+  },
+  {
+   "category": "Goods and Services",
+   "awards": 2472,
+   "spend": 3523022206.42
+  },
+  {
+   "category": "Technical",
+   "awards": 1639,
+   "spend": 123402730.36
+  },
+  {
+   "category": "Professional Services",
+   "awards": 1601,
+   "spend": 2858713578.59
+  },
+  {
+   "category": "Management / Research & Development",
+   "awards": 925,
+   "spend": 76710936.74
+  },
+  {
+   "category": "Legal",
+   "awards": 223,
+   "spend": 12567788.33
+  },
+  {
+   "category": "Information Technology",
+   "awards": 158,
+   "spend": 66562812.63
+  },
+  {
+   "category": "Creative Communications",
+   "awards": 143,
+   "spend": 4286158.62
+  },
+  {
+   "category": "LEGAL",
+   "awards": 59,
+   "spend": 2903592.99
+  },
+  {
+   "category": "INFO TECHNOLOGY",
+   "awards": 36,
+   "spend": 22638067.0
+  },
+  {
+   "category": "COMMUNICATION",
+   "awards": 4,
+   "spend": 305797.0
+  }
+ ],
+ "by_division": [
+  {
+   "division": "Engineering & Construction Services - Engineering Services",
+   "awards": 596,
+   "spend": 3932635342.16
+  },
+  {
+   "division": "Toronto Water",
+   "awards": 940,
+   "spend": 3146387828.28
+  },
+  {
+   "division": "Engineering & Construction Services",
+   "awards": 205,
+   "spend": 1928363037.91
+  },
+  {
+   "division": "Transportation Services",
+   "awards": 1677,
+   "spend": 1919070103.18
+  },
+  {
+   "division": "Solid Waste Management Services",
+   "awards": 495,
+   "spend": 1732021394.2
+  },
+  {
+   "division": "Engineering & Construction Services - Capital Works Delivery",
+   "awards": 275,
+   "spend": 1622221084.55
+  },
+  {
+   "division": "Parks, Forestry & Recreation",
+   "awards": 882,
+   "spend": 1343973749.27
+  },
+  {
+   "division": "Corporate Real Estate Management",
+   "awards": 219,
+   "spend": 703734633.44
+  },
+  {
+   "division": "Information & Technology",
+   "awards": 419,
+   "spend": 471560424.38
+  },
+  {
+   "division": "Fleet Services",
+   "awards": 503,
+   "spend": 446301289.32
+  },
+  {
+   "division": "Facilities Design & Construction",
+   "awards": 230,
+   "spend": 382245282.94
+  },
+  {
+   "division": "Facilities Operations",
+   "awards": 243,
+   "spend": 282723189.5
+  },
+  {
+   "division": "Real Estate Services",
+   "awards": 152,
+   "spend": 233685613.35
+  },
+  {
+   "division": "Shelter, Support & Housing Administration",
+   "awards": 178,
+   "spend": 219125045.34
+  },
+  {
+   "division": "Fire Services",
+   "awards": 273,
+   "spend": 209769236.75
+  }
+ ],
+ "noncomp_reasons": [
+  {
+   "reason": "Emergency",
+   "awards": 380,
+   "spend": 450390109.71
+  },
+  {
+   "reason": "Exclusive Rights",
+   "awards": 632,
+   "spend": 417197905.86
+  },
+  {
+   "reason": "Other",
+   "awards": 64,
+   "spend": 222775071.18
+  },
+  {
+   "reason": "Time Constraint",
+   "awards": 240,
+   "spend": 212194153.01
+  },
+  {
+   "reason": "Compatible",
+   "awards": 220,
+   "spend": 163074305.56
+  },
+  {
+   "reason": "Bridging Contract",
+   "awards": 403,
+   "spend": 105412061.36
+  },
+  {
+   "reason": "Warranty/Maintenance",
+   "awards": 310,
+   "spend": 89166098.65
+  },
+  {
+   "reason": "Cost Sharing",
+   "awards": 20,
+   "spend": 54106214.77
+  },
+  {
+   "reason": "Competitive solicitation unsuccessful",
+   "awards": 54,
+   "spend": 36815274.28
+  },
+  {
+   "reason": "Absence of Competition",
+   "awards": 89,
+   "spend": 18890033.95
+  },
+  {
+   "reason": "Work Already Completed",
+   "awards": 350,
+   "spend": 17378318.99
+  },
+  {
+   "reason": "Confidential/Security",
+   "awards": 52,
+   "spend": 14475163.26
+  },
+  {
+   "reason": "Health & Safety Issues",
+   "awards": 39,
+   "spend": 9803191.6
+  },
+  {
+   "reason": "Public Body Purchase",
+   "awards": 9,
+   "spend": 9397999.79
+  },
+  {
+   "reason": "Scarcity of Market Supply",
+   "awards": 13,
+   "spend": 3564677.04
+  },
+  {
+   "reason": "Work of Art",
+   "awards": 7,
+   "spend": 1734247.79
+  },
+  {
+   "reason": "Prototype",
+   "awards": 3,
+   "spend": 622170.0
+  },
+  {
+   "reason": "Real Estate Agreement",
+   "awards": 1,
+   "spend": 620000.0
+  },
+  {
+   "reason": "Commodity Market",
+   "awards": 1,
+   "spend": 200000.0
+  }
+ ],
+ "rfx_types": [
+  {
+   "type": "RFT",
+   "awards": 2879,
+   "spend": 12373749211.52
+  },
+  {
+   "type": "RFQ",
+   "awards": 2518,
+   "spend": 3855336869.42
+  },
+  {
+   "type": "RFP",
+   "awards": 1580,
+   "spend": 2698139855.72
+  },
+  {
+   "type": "NRFP",
+   "awards": 11,
+   "spend": 397048579.16
+  },
+  {
+   "type": "RFSQ",
+   "awards": 20,
+   "spend": 63337377.05
+  },
+  {
+   "type": "OTP",
+   "awards": 2,
+   "spend": 63.9
+  }
+ ],
+ "top_vendors": [
+  {
+   "id": "V00001",
+   "name": "Furfari Paving Co. Ltd.",
+   "spend": 781673999.74,
+   "awards": 58,
+   "variants": 4,
+   "first_year": "2012",
+   "last_year": "2018",
+   "share_pct": 3.63
+  },
+  {
+   "id": "V00002",
+   "name": "GFL Environmental Inc.",
+   "spend": 517577666.41,
+   "awards": 17,
+   "variants": 5,
+   "first_year": "2013",
+   "last_year": "2025",
+   "share_pct": 2.4
+  },
+  {
+   "id": "V00003",
+   "name": "Sanscon Construction Limited",
+   "spend": 490344985.36,
+   "awards": 109,
+   "variants": 7,
+   "first_year": "2012",
+   "last_year": "2025",
+   "share_pct": 2.28
+  },
+  {
+   "id": "V00004",
+   "name": "2489960 Ontario Inc.",
+   "spend": 469645946.68,
+   "awards": 44,
+   "variants": 6,
+   "first_year": "2016",
+   "last_year": "2025",
+   "share_pct": 2.18
+  },
+  {
+   "id": "V00005",
+   "name": "Fer-Pal Construction Ltd.",
+   "spend": 436744352.06,
+   "awards": 38,
+   "variants": 7,
+   "first_year": "2012",
+   "last_year": "2025",
+   "share_pct": 2.03
+  },
+  {
+   "id": "V00006",
+   "name": "North Tunnel Constructors ULC",
+   "spend": 397269000.0,
+   "awards": 1,
+   "variants": 1,
+   "first_year": "2018",
+   "last_year": "2018",
+   "share_pct": 1.85
+  },
+  {
+   "id": "V00007",
+   "name": "Rabcon Contractors Ltd.",
+   "spend": 374807848.18,
+   "awards": 28,
+   "variants": 3,
+   "first_year": "2012",
+   "last_year": "2025",
+   "share_pct": 1.74
+  },
+  {
+   "id": "V00008",
+   "name": "Pave-Tar Construction Ltd.",
+   "spend": 349718889.84,
+   "awards": 51,
+   "variants": 8,
+   "first_year": "2012",
+   "last_year": "2021",
+   "share_pct": 1.62
+  },
+  {
+   "id": "V00009",
+   "name": "D CRUPI & SONS LIMITED",
+   "spend": 341679613.99,
+   "awards": 63,
+   "variants": 23,
+   "first_year": "2012",
+   "last_year": "2025",
+   "share_pct": 1.59
+  },
+  {
+   "id": "V00010",
+   "name": "Alberici Constructors Ltd.",
+   "spend": 327628116.62,
+   "awards": 10,
+   "variants": 3,
+   "first_year": "2016",
+   "last_year": "2024",
+   "share_pct": 1.52
+  },
+  {
+   "id": "V00011",
+   "name": "Capital Sewer Services Inc.",
+   "spend": 307062452.9,
+   "awards": 41,
+   "variants": 4,
+   "first_year": "2012",
+   "last_year": "2024",
+   "share_pct": 1.43
+  },
+  {
+   "id": "V00012",
+   "name": "Southland Mole of Canada/Astadi Can Design & Construction Joint Venture",
+   "spend": 264834697.0,
+   "awards": 1,
+   "variants": 1,
+   "first_year": "2019",
+   "last_year": "2019",
+   "share_pct": 1.23
+  },
+  {
+   "id": "V00013",
+   "name": "Bennett Mechanical Installations (2001) Ltd.",
+   "spend": 257053910.0,
+   "awards": 14,
+   "variants": 6,
+   "first_year": "2015",
+   "last_year": "2019",
+   "share_pct": 1.19
+  },
+  {
+   "id": "V00014",
+   "name": "Bennett Mechanical Installations",
+   "spend": 255765292.01,
+   "awards": 10,
+   "variants": 2,
+   "first_year": "2014",
+   "last_year": "2025",
+   "share_pct": 1.19
+  },
+  {
+   "id": "V00015",
+   "name": "Midome Construction Services Ltd.",
+   "spend": 231150027.25,
+   "awards": 52,
+   "variants": 6,
+   "first_year": "2013",
+   "last_year": "2025",
+   "share_pct": 1.07
+  },
+  {
+   "id": "V00016",
+   "name": "Kenaidan Contracting Ltd.",
+   "spend": 230941439.52,
+   "awards": 6,
+   "variants": 1,
+   "first_year": "2017",
+   "last_year": "2021",
+   "share_pct": 1.07
+  },
+  {
+   "id": "V00017",
+   "name": "Grascan Construction Ltd.",
+   "spend": 227237442.03,
+   "awards": 32,
+   "variants": 4,
+   "first_year": "2012",
+   "last_year": "2026",
+   "share_pct": 1.06
+  },
+  {
+   "id": "V00018",
+   "name": "POMERLEAU INC.",
+   "spend": 222001982.3,
+   "awards": 2,
+   "variants": 1,
+   "first_year": "2025",
+   "last_year": "2025",
+   "share_pct": 1.03
+  },
+  {
+   "id": "V00019",
+   "name": "Graham Construction and Engineering LP",
+   "spend": 209363500.0,
+   "awards": 1,
+   "variants": 1,
+   "first_year": "2018",
+   "last_year": "2018",
+   "share_pct": 0.97
+  },
+  {
+   "id": "V00020",
+   "name": "GHD Limited",
+   "spend": 178834619.18,
+   "awards": 50,
+   "variants": 4,
+   "first_year": "2015",
+   "last_year": "2025",
+   "share_pct": 0.83
+  },
+  {
+   "id": "V00021",
+   "name": "RV Anderson Associates Ltd.",
+   "spend": 174362519.43,
+   "awards": 20,
+   "variants": 5,
+   "first_year": "2015",
+   "last_year": "2025",
+   "share_pct": 0.81
+  },
+  {
+   "id": "V00022",
+   "name": "Maple-Crete Inc.",
+   "spend": 173219399.25,
+   "awards": 79,
+   "variants": 7,
+   "first_year": "2012",
+   "last_year": "2025",
+   "share_pct": 0.8
+  },
+  {
+   "id": "V00023",
+   "name": "Clearway Construction Inc.",
+   "spend": 158825719.01,
+   "awards": 19,
+   "variants": 3,
+   "first_year": "2013",
+   "last_year": "2025",
+   "share_pct": 0.74
+  },
+  {
+   "id": "V00024",
+   "name": "Aquicon Construction Co. Ltd.",
+   "spend": 157235218.0,
+   "awards": 4,
+   "variants": 2,
+   "first_year": "2013",
+   "last_year": "2024",
+   "share_pct": 0.73
+  },
+  {
+   "id": "V00025",
+   "name": "614128 Ontario Ltd. o/a Trisan Construction",
+   "spend": 153494980.1,
+   "awards": 14,
+   "variants": 7,
+   "first_year": "2017",
+   "last_year": "2025",
+   "share_pct": 0.71
+  }
+ ],
+ "repeat_winners": {
+  "1": 2268,
+  "2-5": 1349,
+  "6-20": 393,
+  "21+": 72
+ },
+ "limitations": [
+  "Three award records carried bare 10-digit integers in the amount field (9054510208, 4163927134, 1898820680), the pattern of phone numbers rather than credible awards. They are quarantined in meta.quarantined_records and excluded from every total; without this, the headline spend would be overstated by $15.1B.",
+  "Vendor identity is resolved heuristically from name strings; no business-number key exists in the source data. Merges are logged in vendor_merges.json for audit.",
+  "Toronto publishes no commodity codes on award records. High Level Category is the source's own coarse coding; GSIN hints are keyword heuristics, suggestion-only.",
+  "Amounts are award or expenditure values as published, not audited final payments; multi-year awards appear in full in the award year.",
+  "The legacy wx.toronto.ca award postings (competitive-call-award-results, non-competitive-contracts) were unreachable at build time; the CKAN datastore dumps are the complete source used.",
+  "Capital and procurement pipeline files describe planned work, not spending, and are excluded from all totals."
+ ]
+}
