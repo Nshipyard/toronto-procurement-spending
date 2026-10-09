@@ -53,7 +53,7 @@ export function Nav() {
       <div className="mx-auto flex max-w-[1392px] items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-2.5">
           <MapleLeaf className="h-7 w-7 text-canada" />
-          <span className="display text-[24px]">Procurement Spending</span>
+          <span className="flex flex-col gap-[2px] leading-none"><span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-ink/55">Open Nshipyard</span><span className="display text-[24px]">Procurement Spending</span></span>
         </a>
         <nav className="hidden items-center gap-7 md:flex">
           {links.map((l) => (
@@ -113,7 +113,7 @@ export function Footer() {
       <div className="mx-auto max-w-[1392px] border-t border-line px-6 py-12">
         <div className="flex items-center gap-2.5">
           <MapleLeaf className="h-6 w-6 text-canada" />
-          <span className="display text-[22px]">Nshipyard</span>
+          <span className="display text-[22px]">Open Nshipyard</span>
         </div>
         <p className="mt-6 max-w-[640px] text-[14px] leading-relaxed text-ink/55">{t.footer.line}</p>
         <p className="mt-2 max-w-[640px] text-[14px] text-ink/55">{t.footer.sources}</p>
