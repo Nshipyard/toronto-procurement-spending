@@ -14,6 +14,7 @@ const OG_DESCRIPTION =
   "Toronto's $21.5B in awarded contracts and consulting spend (2012-2026): 13,084 award records resolved to 4,082 canonical vendors from 4,240 raw name spellings. Vendor explorer, spend analysis, REST API, OpenAPI docs, and MCP tools. Open data, MIT licensed.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: OG_TITLE,
   description: OG_DESCRIPTION,
   openGraph: {
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: `${SITE_URL}/og-card.png`,
+        url: `${SITE_URL}/og-image.png`,
         width: 1200,
         height: 630,
         alt: OG_TITLE,
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: OG_TITLE,
     description: OG_DESCRIPTION,
-    images: [`${SITE_URL}/og-card.png`],
+    images: [`${SITE_URL}/og-image.png`],
   },
   icons: {
     icon: [
